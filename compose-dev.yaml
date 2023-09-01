@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  local-dev:
+    build:
+      context: .
+      dockerfile: compose-dev.Dockerfile
+    command: [ "sleep", "infinity" ]
+    volumes:
+      - ./:/com.docker.devenvironments.code
