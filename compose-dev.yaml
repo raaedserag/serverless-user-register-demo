@@ -7,3 +7,4 @@ services:
     command: [ "sleep", "infinity" ]
     volumes:
       - ./:/com.docker.devenvironments.code
+      - ~/.aws:/root/.aws
