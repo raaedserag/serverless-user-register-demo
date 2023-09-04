@@ -32,3 +32,8 @@ override.tf.json
 .terraformrc
 terraform.rc
 .env
+
+# Python virtual environment
+**/.venv
+
+**/package
